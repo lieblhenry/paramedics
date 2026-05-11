@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>paramedics</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'IBM Plex Mono', monospace;
+      background: #7000ff;
+      color: #fff;
+      min-height: 100vh;
+      padding: 4rem 2rem;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 12vw, 6rem);
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      line-height: 1;
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 0.75rem;
+      font-weight: 400;
+      letter-spacing: 0.3em;
+      text-transform: lowercase;
+      opacity: 0.6;
+      margin-bottom: 1.25rem;
+      margin-top: 2.5rem;
+    }
+
+    .shows {
+      list-style: none;
+    }
+
+    .shows li {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      padding: 0.75rem 0;
+      border-top: 1px solid rgba(255,255,255,0.25);
+      text-transform: lowercase;
+    }
+
+    .shows li:last-child {
+      border-bottom: 1px solid rgba(255,255,255,0.25);
+    }
+
+    .show-name {
+      font-weight: 700;
+    }
+
+    .show-detail {
+      opacity: 0.7;
+      font-size: 0.8rem;
+    }
+
+    .contact {
+      list-style: none;
+    }
+
+    .contact li {
+      font-size: 0.9rem;
+      padding: 0.6rem 0;
+      border-top: 1px solid rgba(255,255,255,0.25);
+      text-transform: lowercase;
+    }
+
+    .contact li:last-child {
+      border-bottom: 1px solid rgba(255,255,255,0.25);
+    }
+
+    .contact a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.7rem;
+      opacity: 0.4;
+      text-transform: lowercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>PARAMEDICS</h1>
+
+    <h2>upcoming shows</h2>
+    <ul class="shows">
+      <li>
+        <div class="show-name">fri jun 26 &mdash; driftwood char bar</div>
+        <div class="show-detail">4415 nicollet ave, minneapolis, mn 55419 &mdash; 9pm &mdash; $10</div>
+      </li>
+      <li>
+        <div class="show-name">sat jun 27 &mdash; private event</div>
+        <div class="show-detail">contact us for private event inquiries</div>
+      </li>
+      <li>
+        <div class="show-name">fri jul 10 &mdash; midway saloon</div>
+        <div class="show-detail">1567 university ave w, st paul, mn 55104</div>
+      </li>
+      <li>
+        <div class="show-name">sat jul 11 &mdash; dockstock</div>
+        <div class="show-detail">contact us for more information</div>
+      </li>
+    </ul>
+
+    <h2>contact</h2>
+    <ul class="contact">
+      <li>email &mdash; <a href="mailto:paramedicsmn@gmail.com">paramedicsmn@gmail.com</a></li>
+      <li>instagram &mdash; <a href="https://instagram.com/paramedicsmn" target="_blank" rel="noopener">@paramedicsmn</a></li>
+    </ul>
+
+    <footer>&copy; 2026 paramedics</footer>
+
+  </div>
+</body>
+</html>
